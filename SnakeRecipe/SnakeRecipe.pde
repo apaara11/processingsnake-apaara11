@@ -6,14 +6,27 @@
 class Segment {
 
   //2. Create x and y member variables to hold the location of each segment.
-
+int x;
+int y;
   // 3. Add a constructor with parameters to initialize each variable.
-
-
-  // 4. Add getter and setter methods for both the x and y member variables.
+Segment(int x, int y){
+  this.x= x;
+  this.y= y;
 }
-
-
+  // 4. Add getter and setter methods for both the x and y member variables.
+public int getX(){
+  return this.x=x;
+}
+public void setX( int x){
+  this.x=x;
+  
+}
+public int getY(){
+  return this.y=y;
+}
+public void setY(int y){
+ this.y=y; 
+}
 // 5. Create (but do not initialize) a Segment variable to hold the head of the Snake
 
 
@@ -31,7 +44,7 @@ class Segment {
 // (Hint: use the random method to set both the x and y to random locations within the screen size (500 by 500).)
 
 //int foodX = ((int)random(50)*10);
-
+}
 
 
 void setup() {
