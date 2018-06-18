@@ -134,7 +134,7 @@ void collision() {
 
 void manageTail() {
 
-  //Call the drawTail method below.
+  //Call the drawTail and checkTailCollision methods.
 
   // Add a new Segment to your ArrayList that has the same X and Y as the head of your snake.
 
