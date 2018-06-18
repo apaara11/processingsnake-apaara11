@@ -77,16 +77,23 @@ void drawSnake() {
 void move() {
 
   // 16. Create a switch statement using your direction variable. Depending on the direction, add a new segment to your snake.
-
-  // The first case will look like this
-
-  //switch(direction) {
-
-  //case "up":
-
-  //  /* move head up here */
-
-  //  break;
+  //This is an incomplete switch statement:
+  /*
+  switch(dir) {
+  case "up":
+    // move head up here 
+    break;
+  case "down":
+    // move head down here 
+    break;
+  case "left":
+   // figure it out 
+    break;
+  case "right":
+    // mystery code goes here 
+    break;
+  }
+  */
 
 
   // 17. Call the checkBoundaries method to make sure the snake doesn't go off the screen.
